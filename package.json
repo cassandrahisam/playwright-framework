@@ -1,5 +1,5 @@
 {
-  "name": "aiep-employee-qa-tests",
+  "name": "playwright-framework",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {},
