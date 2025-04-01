@@ -1,0 +1,15 @@
+{
+  "cookies": [
+    {
+      "name": "scenario",
+      "value": "adminUser",
+      "domain": "localhost",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": []
+}
