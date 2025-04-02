@@ -16,6 +16,14 @@ test.describe("Contact us page", () => {
     await basePage.expectElementVisible(contactUs.form, true);
   });
 
+  test.describe('Visual comparison', () => {
+    //Visual regression testing 
+    //identify changes in the visual appearance
+    test('initial state', async ({ page }) => {
+      await expect(page).toHaveScreenshot();
+    });
+  });
+
   test.afterAll(async () => {
     await contactUs.page.close();
   });
